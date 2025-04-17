@@ -4,5 +4,5 @@
     "/content/edge-forms-seno/configuration:/.helix/config.json",
     "/content/edge-forms-seno/metadata:/metadata.json"
   ],
-  "includes": ["/content/", "/content/dam/"]
+  "includes": ["/content/edge-forms-seno/"]
 }
