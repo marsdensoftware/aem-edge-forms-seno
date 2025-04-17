@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p137277-e1382426.adobeaemcloud.com/bin/franklin.delivery/marsdensoftware/aem-edge-forms-seno/main"
+    url: "https://author-p137277-e1382426.adobeaemcloud.com/bin/franklin.delivery/marsdensoftware/edge-forms-seno/main"
     type: "markup"
     suffix: ".html"
