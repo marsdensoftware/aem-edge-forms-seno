@@ -1,15 +1,15 @@
 # Your Project's Title...
 
-Your project's description...
-
 ## Environments
 
-- Preview: https://main--aem-boilerplate-forms--adobe-rnd.aem.page/
-- Live: https://main--aem-boilerplate-forms--adobe-rnd.aem.live/
+- Preview: https://main--edge-forms-seno--marsdensoftware.aem.page/
+- Live: https://main--edge-forms-seno--marsdensoftware.aem.live/
 
 ## Documentation
 
 Before using the aem-boilerplate, we recommand you to go through the documentation on [www.aem.live](https://www.aem.live/docs/) and [experienceleague.adobe.com](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/wysiwyg-authoring/authoring), more specifically:
+
+-[Getting Started – Universal Editor Developer Tutorial](https://www.aem.live/developer/ue-tutorial)
 
 - [Getting Started Guide](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/wysiwyg-authoring/edge-dev-getting-started)
 - [Creating Blocks](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/wysiwyg-authoring/create-block)
@@ -40,13 +40,18 @@ npm run lint
 ## Local development
 
 1. Create a new repository based on the `aem-boilerplate` template and add a mountpoint in the `fstab.yaml`
-   i.e `[https://author-link]/bin/franklin.delivery/marsdensoftware/[your-site-name]/main`
+   i.e `https://<aem-author>/bin/franklin.delivery/<owner>/<repository>/main`
 2. Change mapping url in `paths.json`
    i.e
 
 ```json
 {
-  "mappings": ["/content/[your-site-name]/:/"]
+  "mappings": [
+    "/content/[your-site-name]/:/",
+    "/content/[your-site-name]/configuration:/.helix/config.json",
+    "/content/[your-site-name]/metadata:/metadata.json"
+  ],
+  "includes": ["/content/[your-site-name]/"]
 }
 ```
 
