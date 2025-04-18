@@ -2,8 +2,8 @@
 
 ## Environments
 
-- Preview: https://main--edge-forms-seno--marsdensoftware.aem.page/
-- Live: https://main--edge-forms-seno--marsdensoftware.aem.live/
+- Preview: https://main--aem-edge-forms-seno--marsdensoftware.aem.page/
+- Live: https://main--aem-edge-forms-seno--marsdensoftware.aem.live/
 
 ## Documentation
 
